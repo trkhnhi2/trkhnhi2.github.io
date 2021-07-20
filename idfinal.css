@@ -1,0 +1,379 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+	margin: 0 ;
+	padding: 0 50px;
+	font-family: 'Josefin Sans', sans-serif;
+}
+input{
+	font-family: 'Josefin Sans', sans-serif;
+	outline: none;
+}
+h1{
+	font-family: 'Viaoda Libre', cursive;
+}
+h2{
+	font-family: 'Viaoda Libre', cursive;
+}
+h3{
+	font-family: 'Viaoda Libre', cursive;
+}
+.total{
+	padding: 20px 50px;
+}
+.menu img{
+	position: relative;
+	top: 25px;
+	left: 25px;
+	width: 70px;
+	float: left;
+	/* margin: 25px 0px 0px 25px; */
+}
+.header{
+	background-image: url("mark-rothko1.jpg");
+	background-size: cover;
+}
+.labels img{
+	width: 60px;
+}
+
+.menu {
+	width: 100%;	
+	height: 70px;
+	color: white;
+}
+.menu ul{
+	float: left;
+	margin: 0;
+}
+.menu ul li {
+	display: inline;
+	padding: 0 10px;
+	line-height: 70px;
+		
+}
+#nav2{
+	margin: 0 60px; 
+}
+#nav3{
+	float: right;
+}
+
+.joinnow{
+	border: none;
+	border-radius: 50px;
+	background: grey;
+	height: 50px;
+	padding: 20px;
+	color: white;
+}
+.intro{
+	padding: 70px;
+	color: white;
+}
+.intro h1{
+	font-size: 4vw;
+}
+.phonenumber{
+	border: none;
+	background: none;
+	border-bottom: 1px solid grey;
+	height: 50px;
+}
+.getstarted{
+	border: none;
+	border-radius: 50px;
+	background: grey;
+	height: 50px;
+	padding: 20px;
+	color: white;
+}
+.labels{
+	margin-bottom: 80px;
+}
+.labels ul{
+	justify-content:center;
+	display: flex;
+}
+.labels ul li{
+	display: inline;
+	margin: 0 50px;
+	justify-content: space-between;
+}
+.main1{
+	display: grid;
+	grid-template-columns: auto auto;
+	grid-gap: 50px;
+}
+.item1 img{
+	width: 70%;	
+}
+.sub1{
+	width: 70%;
+	background-color: #0F1531;
+	display: grid;
+	grid-template-columns: auto auto;
+	grid-gap: 20px;
+	position: relative;
+	top: -170px;
+	left: 30px;
+	padding: 20px;
+	color: white;
+}
+.sub1-1{
+	grid-column-start: 1;
+	grid-column-end: 3;
+	border-left: 1px solid white;
+	padding: 0 20px;
+}
+.sub1-2 i{
+	font-size: 40px;
+	float: left;
+	margin: 0 10px;
+}
+hr{
+	margin: 40px;
+	color: grey;
+}
+.item2{
+	padding-top: 30px;
+	
+}
+.item2 i{
+	margin-right: 20px;
+}
+.main2{
+	
+}
+.main2-1{
+    display: grid;
+    grid-template-columns: 20% auto auto;
+}
+.main2-1-1{
+    width: 150px;
+}
+.main2-1-1 p{
+    font-size: 10px;
+}
+.main2-1-2{
+    padding: 20PX;
+}
+.main2-1-2 i{
+    margin-right: 10px;
+}
+.main2-1-2-text{
+	line-height: 60px;
+}
+.main2-1-3{
+    padding: 20PX;
+}
+.main2-1-3 i{
+    margin-right: 10px;
+}
+.main2-1-3-text{
+	line-height: 60px;
+}
+.main2-2{
+display: grid;
+grid-template-columns: auto auto auto auto;
+margin-top: 50px;
+padding: 0 70px;
+grid-column-gap: 80px;
+text-align: center;
+}
+.main2-2 h1{
+	color: #96401F;
+}
+
+.main3{
+	display: grid;
+	grid-template-columns: 40% 60%;
+	margin-top: 150px;
+}
+.main3-1{
+	position: relative;
+	left: 50px;
+	top:-60px;
+	height: 100%;
+	width: 100%;
+	background-image: url("Helen-Frankenthaler-–-Mountains-and-Sea-1952.png");
+	background-size: cover;
+}
+.main3-2{
+	background: #0F1531;
+	color: white;
+	padding: 60px 100px;
+}
+.main3-2 i{
+	margin-right: 10px;
+	float: left;
+}
+
+.textmain3{
+	margin-left: 30px;
+}
+
+.main4{
+	display: grid;
+	grid-template-columns: auto auto auto;
+	grid-gap: 60px;
+	text-align: center;
+	margin-top: 100px;
+}
+.main4-1{
+	grid-column-start: 1;
+	grid-column-end: 4;
+	margin: auto;
+	margin-bottom: 30px;
+}
+.main4-l-r{
+	border: 1px solid #e0e0e0;
+	padding: 20px 30px;
+	border-radius: 10px;
+}
+.main4-l-r input{
+	border: none;
+	background: #e0e0e0;
+	padding: 15px 30px;
+	border-radius: 30px;
+}
+.main4-center{
+	position: relative;
+	top: -20px;
+	border-top: 4px solid #e0e0e0;
+	box-shadow: 0 0 50px #8f8f8f70;
+	padding: 20px 30px;
+	border-radius: 0px 0px 10px 10px;
+}
+.main4-center input{
+	border: none;
+	background: #e0e0e0;
+	padding: 15px 30px;
+	border-radius: 30px;
+}
+.main5{
+	display: grid;
+    grid-template-columns: auto auto;
+	grid-gap: 50px;
+    margin-top: 100px;
+	background-color: #e9ebff;
+	padding: 0 30px;
+}
+
+.main5-1{
+	padding: 200px 0;
+  
+}
+.main5-2{
+}
+.img1{
+    height: 400px;
+	background-image: url("download.png");
+	background-size: cover;
+    margin-top: -50px;
+}
+.img2{
+    width: 200px;
+    height: 260px;
+    float: left;
+    background-image: url("download1.png");
+	background-size: cover;
+	margin-top: 20px;
+}
+.img3{
+    width: 260px;
+    height: 200px;
+    float: right;
+    background-image: url("download2.png");
+	background-size: cover;
+	margin-top: 20px;
+	margin-left: 20px;
+}
+.main5-3{
+
+}
+
+.join h1{
+    margin-left: 40px;
+}
+.main5-4{
+    display: flex;
+  	justify-content: center;
+ 	margin: auto;
+  
+}
+.main5-4 input{
+    line-height: 50px;
+    height: 50px;
+    width: 150px;
+    border: none;
+    border-radius: 50px;
+    color: white;
+    background: #59577e;
+}
+.footer{
+    color: #226363;
+    background: #e9ebff;
+}
+.footer1{
+    display: grid;
+    grid-template-columns: 20% 20% 20% 40%;
+}
+.footer1 p{
+    padding-left: 40px;
+}
+.footer1 ul li{
+    padding: 10px 0px;
+    list-style: none;
+}
+.inputemail{
+    border: none;
+    background: #dbdbdb;
+    width: 95%;
+    height: 50px;
+    line-height: 50px;
+    border-radius: 30px;
+    margin-top: 20px;
+}
+.stayintouch input{
+    border: none;
+    background: none;
+    height: 30px;
+    padding: 0px 30px;
+    color: #757575;
+}
+.stayintouch button{
+    float: right;
+    border: none;
+    background: none;
+    margin: 5px 10px;
+    background-color: rgb(68, 68, 68);
+    color: #ffffff;
+    border-radius: 30px;
+    text-align: center;
+    padding: 12px;
+}
+.stayintouch ul li{
+    padding: 0px;
+}
+.footer2{
+    display: grid;
+    grid-template-columns: 20% 40% 40%;
+    padding: 40px 0px 20px 0px;
+}
+.foimg img{
+	width: 60px;
+}
+.footer2 div{
+    line-height: 40px;
+    margin-left: 40px;
+}
+.fb i{
+    margin: 0px 10px;
+    background-color: rgb(68, 68, 68);
+    color: #ffffff;
+    width: 15px;
+    border-radius: 30px;
+    text-align: center;
+    padding: 12px;
+}
